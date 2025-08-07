@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mystic.comp.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "comp.refmap.json",
+  "mixins": [
+    "PortalManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
